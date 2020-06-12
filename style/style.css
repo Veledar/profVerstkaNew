@@ -1,3 +1,41 @@
 @import "https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css";
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: 'Lato', sans-serif; }
+  body .wrap {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column; }
+    body .wrap .top {
+      flex-grow: 1; }
+
+.center {
+  padding: 0 calc(50% - 570px); }
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 100px;
+  background-color: white;
+  border: 1px solid #ececec;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.17); }
+  .header .logo {
+    width: 165px;
+    background: url("../img/logo.png") no-repeat;
+    text-transform: uppercase;
+    font-size: 27px;
+    font-weight: 300;
+    padding-left: 72px;
+    line-height: 51px; }
+
+.footer {
+  height: 100px;
+  background-color: #ccc; }
 
 /*# sourceMappingURL=style.css.map */
