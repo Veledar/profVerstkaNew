@@ -4,22 +4,47 @@
     <meta charset="UTF-8">
     <title>Main Page</title>
     <link rel="stylesheet" href="style/style.css">
+    <script src="https://kit.fontawesome.com/861689887d.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <div class="wrap">
+
         <div class="top">
+
             <header class="header center">
-                <a href="#" class="logo">BRAN<span>D</span></a>
+                <div class="logo">BRAN<span>D</span></div>
                 <form action="#" class="search">
-                    <div class="searchBrowse">Browse</div>
-                    <input name="search" type="text">
-                    <button type="submit"></button>
-                    <img class="headerCart" src="img/Cart.png" alt="headerCart">
-                    <a href="#" class="button">My Account</a>
+                    <div class="searchBrowse">Browse <i class="fas fa-caret-down"></i></div>
+                    <input name="search" type="text" placeholder="Search for Item...">
+                    <button type="submit"><i class="fas fa-search"></i></button>
                 </form>
+                <img class="headerCart" src="img/cart.png" alt="headerCart">
+                <button class="accountBtn">My Account <i class="fas fa-caret-down"></i></button>
             </header>
+
+            <nav class="center">
+                <ul class="menu">
+                    <li class="menu__list"><a href="#" class="menu__link">Home</a></li>
+                    <li class="menu__list"><a href="#" class="menu__link">Man</a></li>
+                    <li class="menu__list"><a href="#" class="menu__link">Women</a></li>
+                    <li class="menu__list"><a href="#" class="menu__link">Kids</a></li>
+                    <li class="menu__list"><a href="#" class="menu__link">Accoseriese</a></li>
+                    <li class="menu__list"><a href="#" class="menu__link">Featured</a></li>
+                    <li class="menu__list"><a href="#" class="menu__link">Hot Deals </a></li>
+                </ul>
+            </nav>
+
+            <div class="promo">
+                <div class="container promo__content">
+                    <div></div>
+                    <div><b>THE BRAND</b><br>OF LUXERIOUS <span>FASHION</span></div>
+                </div>
+            </div>
+
         </div>
+
         <footer class="footer"></footer>
+
     </div>
 
 </body>

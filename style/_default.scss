@@ -1,0 +1,36 @@
+@import 'https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css';
+@import 'https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap';
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  .wrap {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    .top {
+      flex-grow: 1;
+    }
+  }
+}
+
+.container {
+  width: 1140px;
+  margin: auto;
+}
+
+.center {
+  padding: 0 calc(50% - 570px);
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
