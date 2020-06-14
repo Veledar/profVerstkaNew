@@ -72,7 +72,8 @@ ul {
       height: inherit;
       border: none;
       outline: none;
-      padding: 14px 16px; }
+      padding: 14px 16px;
+      width: 300px; }
     .header .search button {
       height: inherit;
       border: none;
@@ -145,7 +146,7 @@ ul {
   align-content: space-between; }
   .offers .offer {
     position: relative; }
-    .offers .offer div {
+    .offers .offer article {
       padding: 10px;
       position: absolute;
       top: 25px;
@@ -154,10 +155,10 @@ ul {
       letter-spacing: 0.45px;
       line-height: 1.15;
       text-transform: uppercase; }
-      .offers .offer div h2 {
+      .offers .offer article h2 {
         font-size: 18px;
         font-weight: 900; }
-      .offers .offer div p {
+      .offers .offer article p {
         color: #f38191;
         font-size: 30px;
         letter-spacing: 0.75px;
@@ -165,7 +166,9 @@ ul {
         font-weight: 900; }
 
 .featuredItemsWrap {
-  margin-top: 100px; }
+  margin-top: 100px;
+  padding-left: 0;
+  padding-right: 0; }
   .featuredItemsWrap .featuredHead {
     font-size: 30px;
     font-weight: 700;
@@ -210,6 +213,8 @@ ul {
         cursor: pointer; }
         .featuredItem .featuredImgWrap .featuredBuy button img {
           margin-right: 10px; }
+        .featuredItem .featuredImgWrap .featuredBuy button :hover {
+          box-shadow: 0px 0px 5px 0px white; }
     .featuredItem .featuredImgWrap .featuredProduct {
       width: 100%;
       display: block;

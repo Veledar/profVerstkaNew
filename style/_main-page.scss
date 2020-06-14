@@ -45,7 +45,7 @@
   align-content: space-between;
   .offer {
     position: relative;
-    div{
+    article{
       padding: 10px;
       position: absolute;
       top: 25px;
@@ -72,6 +72,8 @@
 
 .featuredItemsWrap {
   margin-top: 100px;
+  padding-left: 0;
+  padding-right: 0;
   .featuredHead {
     font-size: 30px;
     font-weight: 700;
@@ -121,6 +123,9 @@
         cursor: pointer;
         img {
           margin-right: 10px;
+        }
+        :hover {
+          box-shadow: 0px 0px 5px 0px white;
         }
       }
     }
