@@ -249,6 +249,62 @@ ul {
   .featuredAllProductsBtn img {
     margin-left: 10px; }
 
+.offerForWomen {
+  display: flex;
+  height: 530px; }
+
+.offerForWomenBanner {
+  flex-shrink: 0;
+  height: inherit;
+  width: 767px;
+  background: url(../img/offerForWomen.jpg) no-repeat;
+  background-size: cover;
+  position: relative; }
+
+.offerText {
+  position: absolute;
+  top: 146px;
+  left: 40px;
+  color: #ffffff; }
+  .offerText div:first-child {
+    font-size: 54px;
+    font-weight: 700; }
+    .offerText div:first-child span {
+      color: #f16d7f; }
+  .offerText div:last-child {
+    font-size: 32px; }
+
+.offerDetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #222224;
+  color: #fbfbfb; }
+
+.offerUnit {
+  padding: 30px 30px 30px 110px;
+  flex-grow: 1; }
+  .offerUnit:first-child {
+    background: url(../img/offerDetails1.png) no-repeat 36px 30px; }
+  .offerUnit:nth-child(2) {
+    background: url(../img/offerDetails2.png) no-repeat 36px 30px; }
+  .offerUnit:last-child {
+    background: url(../img/offerDetails3.png) no-repeat 36px 30px; }
+  .offerUnit .offerDetailsHead {
+    font-size: 20px;
+    font-weight: 700; }
+  .offerUnit .offerDetailsText {
+    line-height: 24px;
+    margin-top: 15px;
+    margin-bottom: 0;
+    text-align: justify;
+    font-size: 14px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical; }
+
 .footer {
   height: 100px;
   background-color: #ccc; }
