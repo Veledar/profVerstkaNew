@@ -305,8 +305,155 @@ ul {
     -webkit-line-clamp: 3;
     -webkit-box-orient: vertical; }
 
+.subscribeWrap {
+  margin-top: 100px;
+  height: 438px;
+  background: url(../img/subscribe.jpg) no-repeat center bottom, #ccc;
+  background-blend-mode: overlay;
+  background-size: cover; }
+  .subscribeWrap .subscribe {
+    display: flex;
+    height: inherit; }
+
+.reviews {
+  display: flex;
+  align-items: center;
+  width: calc(100% - 1px); }
+
+.reviewUnit {
+  width: 500px;
+  display: flex;
+  justify-content: space-between; }
+  .reviewUnitLeft {
+    width: 83px; }
+  .reviewUnitRight {
+    width: 386px; }
+    .reviewUnitRight blockquote {
+      margin: 0;
+      font-size: 16px;
+      font-style: italic;
+      line-height: 26px;
+      font-weight: 700; }
+    .reviewUnitRight .reviewName {
+      margin-top: 20px;
+      font-size: 16px;
+      font-weight: 700;
+      color: #f16d7f; }
+    .reviewUnitRight .reviewFrom {
+      color: #222224;
+      font-size: 12px;
+      font-weight: 300; }
+    .reviewUnitRight .reviewsSwitch {
+      width: 140px;
+      display: flex;
+      justify-content: space-between;
+      margin-top: 40px; }
+      .reviewUnitRight .reviewsSwitch div {
+        width: 38px;
+        height: 4px;
+        background-color: #d6d6d6; }
+        .reviewUnitRight .reviewsSwitch div:hover {
+          background-color: #f16d7f;
+          cursor: pointer; }
+
+.subscribeDivider {
+  width: 1px;
+  background: #e3e3e3; }
+
+.subscribeRight {
+  width: calc(100% - 1px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .subscribeRight .subscribeRightHead {
+    font-size: 24px;
+    text-transform: uppercase;
+    color: #222224; }
+  .subscribeRight .subscribeRightText {
+    margin: 10px 0 35px; }
+  .subscribeRight .subscribeForm {
+    height: 46px; }
+    .subscribeRight .subscribeForm input {
+      height: inherit;
+      width: 334px;
+      border: none;
+      outline: none;
+      padding: 0 28px;
+      font-weight: 700;
+      background-color: #e1e1e1;
+      border-top-left-radius: 23px;
+      border-bottom-left-radius: 23px;
+      float: left; }
+    .subscribeRight .subscribeForm button {
+      background-color: #f16d7f;
+      border-top-right-radius: 23px;
+      border-bottom-right-radius: 23px;
+      color: white;
+      border: none;
+      height: inherit;
+      padding: 0 20px;
+      outline: none;
+      cursor: pointer; }
+
 .footer {
-  height: 100px;
-  background-color: #ccc; }
+  margin-top: 100px !important;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start; }
+  .footer .footerBrand {
+    width: 427px;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    color: #898989; }
+    .footer .footerBrand .footerBrandText1 {
+      margin: 30px 0; }
+  .footer .footerColumn {
+    padding-top: 15px; }
+    .footer .footerColumn h2 {
+      margin: 0 0 30px;
+      font-size: 18px;
+      font-weight: 700;
+      color: #f16d7f; }
+    .footer .footerColumn a {
+      display: block;
+      color: #898989;
+      font-size: 16px;
+      text-decoration: none; }
+    .footer .footerColumn a:hover {
+      color: #f16d7f; }
+    .footer .footerColumn a:not(:last-child) {
+      margin-bottom: 25px; }
+
+.copyrights {
+  margin-top: 100px;
+  height: 80px;
+  background: #e6e6e6; }
+  .copyrights .copyrightsWrap {
+    color: #7a7a7a;
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+    .copyrights .copyrightsWrap .copyrightsRight {
+      display: flex;
+      width: 200px;
+      justify-content: space-between; }
+      .copyrights .copyrightsWrap .copyrightsRight a {
+        text-decoration: none;
+        color: inherit; }
+      .copyrights .copyrightsWrap .copyrightsRight i {
+        width: 32px;
+        height: 32px;
+        background: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        text-align: center; }
+      .copyrights .copyrightsWrap .copyrightsRight i:hover {
+        color: white;
+        background: #f16d7f; }
 
 /*# sourceMappingURL=style.css.map */
