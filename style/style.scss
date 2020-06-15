@@ -1,6 +1,5 @@
 @import 'default';
 @import 'vars';
-@import 'media';
 @import 'mixins';
 
 .header {
@@ -89,10 +88,17 @@
     padding: 20px;
     display: block;
   }
+  a:hover {
+    text-decoration: none;
+    border-bottom: 3px solid #f38191;
+    color: #f38191;
+    padding-bottom: 11px;
+  }
 }
 
 @import 'main-page';
 @import 'shopping-cart';
+@import 'single-page';
 
 .footer {
   margin-top: 100px !important;
@@ -167,3 +173,5 @@
     }
   }
 }
+
+@import 'media';

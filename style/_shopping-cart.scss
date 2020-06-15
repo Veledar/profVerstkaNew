@@ -35,7 +35,7 @@
   font-weight: 700;
   text-transform: uppercase;
   font-size: 13px;
-  color: #222222 !important;
+  color: #222222;
   > div:first-child {
     width: 460px;
   }
@@ -46,15 +46,6 @@
   }
   .productPrice {
     width: 78px;
-  }
-  .productQty {
-    width: 68px;
-    input {
-      width: 54px;
-      border: 1px solid #eaeaea;
-      text-align: center;
-      height: 30px;
-    }
   }
   .productShipping {
     width: 62px;
@@ -110,6 +101,15 @@
           font-weight: 400;
         }
       }
+    }
+  }
+  .productQty {
+    width: 68px;
+    input {
+      width: 54px;
+      border: 1px solid #eaeaea;
+      text-align: center;
+      height: 30px;
     }
   }
 }
